@@ -1,0 +1,65 @@
+body {
+    background-color: rgba(0, 20, 34, 1);
+    color: white;
+    background-color: #111927;
+    background-image:
+        radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%),
+        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+}
+
+.container {
+    border: 2px solid black;
+    max-width: 405.34px;
+    border-radius: 11.16px;
+    overflow: hidden;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+    .img img {
+        width: 100%;
+    }
+
+    .card-container {
+        width: 100%;
+    }
+
+    .level {
+        background-color: rgba(241, 198, 68, 0.24);
+        color: rgba(255, 209, 71, 1);
+        padding: 8px 16px;
+        display: inline-block;
+        border-radius: 5.21px;
+
+
+    }
+
+    section {
+        margin-left: 25px;
+    }
+
+    .cart button{
+        backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.125);  
+    border-radius: 12px;     
+    color: white;
+    padding: 1rem 2rem;
+    }
+
+    .cart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        margin: 2rem 0;
+
+    }
+
+    .cart i {
+        font-size: 2rem;
+    }
